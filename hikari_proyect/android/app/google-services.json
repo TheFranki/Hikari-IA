@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "677346188413",
+    "firebase_url": "https://hikari-ia-default-rtdb.firebaseio.com",
+    "project_id": "hikari-ia",
+    "storage_bucket": "hikari-ia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677346188413:android:7a609af94cf80145936514",
+        "android_client_info": {
+          "package_name": "com.example.hikari_proyect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEnmNDWRONQb3j-ZIx0Xb6JH56QyPBW44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
