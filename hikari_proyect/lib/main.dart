@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart'; // Asegúrate de importar esto
-import 'firebase_options.dart'; // Este archivo se crea con el CLI de Firebase
-// IMPORTANTE: Asegúrate de mantener la ruta correcta a tu pantalla de chat
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'screens/chat_screen.dart';
 
-// NUEVO: Agregamos "async" porque encender Firebase toma unos milisegundos
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized(); // Indispensable
+  WidgetsFlutterBinding.ensureInitialized();
 
-  // Esta es la conexión que te falta:
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
