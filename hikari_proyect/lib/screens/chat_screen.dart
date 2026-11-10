@@ -596,7 +596,6 @@ Respuesta:''';
   }
 
   @override
-  //HEADBODY POR SI QUIEREN EDITAR
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -625,12 +624,10 @@ Respuesta:''';
                   return Align(
                     alignment:
                         isUser ? Alignment.centerRight : Alignment.centerLeft,
-                    //CHAT IA
                     child: Container(
                       margin: const EdgeInsets.all(8.0),
                       padding: const EdgeInsets.all(12.0),
                       decoration: BoxDecoration(
-                        //MENSAJE DE LA IA POR SI QUIEREN EDITAR
                         color: isUser ? Colors.blue[100] : Colors.grey[300],
                         borderRadius: BorderRadius.circular(12.0),
                       ),
@@ -682,7 +679,6 @@ Respuesta:''';
                 },
               ),
             ),
-            //CUANDO SE ACABAN LOS TOKKEN SALE CARGAR, PUEDEN EDITARLO SI QUIEREN
             if (_isLoading || _isClearing)
               Padding(
                 padding: const EdgeInsets.all(8.0),
